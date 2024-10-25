@@ -1,0 +1,123 @@
+:root{
+    /*پالت های رنگی اصلی*/
+    --Tint-1 :#E5F2E9;
+    --Tint-2 :#CAE4D3;
+    --Tint-3 :#B0D7BD;
+    --Tint-4 :#96C9A7;
+    --Tint-5 :#7CBC91;
+    --Tint-6 :#61AE7B;
+    --Tint-7 :#4E9968;
+    --Primary :#417F56;
+    --Shade-1 :#396F4B;
+    --Shade-2 :#315F41;
+    --Shade-3 :#294F36;
+    --Shade-4 :#21402B;
+    --Shade-5 :#183020;
+    --Shade-6 :#102016;
+    --Shade-7 :#08100B;
+    /*پالت های رنگی خنثی*/
+    --White :#FFFFFF;
+    --Gray-1 :#F9F9F9;
+    --Gray-2 :#E1E1E1;
+    --Gray-3 :#EDEDED;
+    --Gray-4 :#CBCBCB;
+    --Gray-5 :#ADADAD;
+    --Gray-6 :#757575;
+    --Gray-7 :#717171;
+    --Gray-8 :#353535;
+    --Black :#0C0C0C;
+    /*پالت های رنگی وضعیت*/
+    --Erro :#C30000;
+    --Erro-Light :#ED2E2E;
+    --Error-Extralight :#FFF2F2;
+    --Success :#00966D;
+    --Success-Light :#00BA88;
+    --Success-Extralight :#F3FDFA;
+    --Warning :#A9791C;
+    --Warning-Light :#F4B740;
+    --Warning-Extralight :#FFF8E1;
+
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,*::after,*::before
+{
+    box-sizing: border-box;
+}
+body
+{
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-family: "Estedad";
+    background-color: var(--White);
+    direction: rtl;
+   /*برای راست چین کردن*/
+}
+
+/* Nav section */
+.container{
+    padding-left: 10.5rem;
+    padding-right: 10.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    margin-top: 1.5rem;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav_icon{
+    margin-right: 17.5rem;
+
+}
+.menue-list{
+    display: flex;
+    align-content: center;
+    gap: 2rem;
+    margin-right: 17.5rem;
+    margin-left: 14.6rem;
+
+}
+.menue-list_item{
+
+}
+.nav_link{
+
+}
+.nav_Logo{
+    margin-right: 3rem;
+
+}
+
+.header-slider{
+
+}
+.header-slider_content_wrapper{
+    display: flex;
+    flex/* header slider */-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+.header-slider_service{
+min-width: 100rem;
+background-position: center;
+}
+.header-slider_service_image{
+    display: block;
+    margin: auto;
+
+}
